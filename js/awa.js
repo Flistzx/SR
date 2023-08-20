@@ -1,1 +1,0 @@
-function initAwa(n,t,i){if(n){const r={useDefaultContentName:!0,useShortNameForContentBlob:!0,isLoggedIn:!1,autoCapture:{pageView:!0,lineage:!0,click:!1},coreData:{appId:t,pageName:i}};n.init(r)}}const analyticsAppId="Minecraft";initAwa(window.awa,analyticsAppId,location.pathname)
